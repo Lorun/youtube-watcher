@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 import Debounce from 'lodash/debounce';
-import api from '../../helpers/youtube-api';
+import api from '../../utils/youtube-api';
 
 import Input from './Input';
 import ListOfVideo from './ListOfVideo';
